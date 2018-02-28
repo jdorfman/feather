@@ -48,7 +48,7 @@ Or copy and paste the following code snippet into a blank `html` file.
 <!DOCTYPE html>
 <html lang="en">
   <title></title>
-  <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+  <script src="https://unpkg.com/feather-icons/dist/feather.min.js" integrity="sha384-etz6KpoeF0fEf5uJrEdCn91aPJtZC7QuiPdjW8m7GaFWNTqlRCyNAPlZU94kpYsF" crossorigin="anonymous"></script>
   <body>
 
     <!-- example icon -->
@@ -93,8 +93,8 @@ Or load the script from a CDN provider.
 
 ```html
 <!-- choose one -->
-<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-<script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js" integrity="sha384-cs54BHELuEAq8j36Dvbs36AtGHL3E+DSKQ+Ea0p85pzC18IZQgI80/R9F3ekZqVE" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/feather-icons/dist/feather.min.js" integrity="sha384-etz6KpoeF0fEf5uJrEdCn91aPJtZC7QuiPdjW8m7GaFWNTqlRCyNAPlZU94kpYsF" crossorigin="anonymous"></script>
 ```
 
 After including the script, `feather` will be available as a global variable.
